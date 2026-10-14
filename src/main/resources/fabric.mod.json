@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "itemmagnet",
+	"version": "${version}",
+	"name": "Item Magnet",
+	"description": "Passively pulls every dropped item within 16 blocks toward the player. Toggle with F8 or /magnet.",
+	"authors": ["xlifer"],
+	"license": "CC0-1.0",
+	"icon": "assets/itemmagnet/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.xlifer.itemmagnet.ItemMagnet"],
+		"client": ["com.xlifer.itemmagnet.ItemMagnetClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
